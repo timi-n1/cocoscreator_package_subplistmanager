@@ -1,0 +1,19 @@
+{
+  "name": "subplist-manager",
+  "version": "1.0.0",
+  "description": "SubPlist计算管理",
+  "author": "StevYu",
+  "main": "main.js",
+  "main-menu": {
+    "Packages/通用/子域/subPlist管理": {
+      "message": "subplist-manager:open"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "SubPlist管理",
+    "width": 600,
+    "height": 800
+  }
+}
